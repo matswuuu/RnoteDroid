@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Rnote</string>
+
+    <!-- Home -->
+    <string name="open_file">Open file</string>
+    <string name="recent_files">Recent</string>
+    <string name="no_recent_title">No documents yet</string>
+    <string name="no_recent_text">Open an .rnote file to view your handwritten notes.</string>
+    <string name="remove_from_recents">Remove from recents</string>
+    <string name="more_options">More options</string>
+
+    <!-- Viewer -->
+    <string name="back">Back</string>
+    <string name="loading">Opening document…</string>
+    <string name="fit_width">Fit width</string>
+    <string name="fit_page">Fit page</string>
+    <string name="document_info">Document info</string>
+    <string name="page_indicator">%1$d / %2$d</string>
+    <string name="zoom_percent">%1$d%%</string>
+    <string name="go_to_page">Go to page</string>
+    <string name="page_number_hint">Page (1–%1$d)</string>
+    <string name="go">Go</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="retry">Retry</string>
+    <string name="failed_strokes_warning">%1$d elements could not be displayed.</string>
+
+    <!-- Info -->
+    <string name="info_file">File</string>
+    <string name="info_version">Created with</string>
+    <string name="info_version_value">Rnote %1$s</string>
+    <string name="info_layout">Layout</string>
+    <string name="info_pages">Pages</string>
+    <string name="info_page_size">Page size</string>
+    <string name="info_page_size_value">%1$.0f × %2$.0f mm</string>
+    <string name="info_elements">Elements</string>
+    <string name="layout_fixed_size">Fixed size</string>
+    <string name="layout_continuous_vertical">Continuous vertical</string>
+    <string name="layout_semi_infinite">Semi infinite</string>
+    <string name="layout_infinite">Infinite</string>
+
+    <!-- Errors -->
+    <string name="error_title">Can\'t open this document</string>
+    <string name="error_invalid_file">This is not a valid Rnote file.</string>
+    <string name="error_not_found">The file could not be found. It may have been moved or deleted.</string>
+    <string name="error_permission">Access to the file was denied. Please open it again.</string>
+    <string name="error_out_of_memory">The document is too large to be displayed on this device.</string>
+    <string name="error_generic">Something went wrong: %1$s</string>
+
+    <!-- Export -->
+    <string name="export">Export</string>
+    <string name="export_as">Export as…</string>
+    <string name="export_pdf">PDF document</string>
+    <string name="export_png">PNG image</string>
+    <string name="export_pdf_description">One page per document page. Good for printing and sharing.</string>
+    <string name="export_png_description">A single image of the whole document.</string>
+    <string name="exporting">Exporting…</string>
+    <string name="export_saved">Saved to %1$s</string>
+    <string name="export_failed">Export failed: %1$s</string>
+    <string name="export_untitled">document</string>
+</resources>
